@@ -151,7 +151,6 @@ bot.on("message", async message => {
 		  .setThumbnail(bicon)
 		  .addField("Bot Name", bot.user.username)
 		  .addField("Created On", bot.user.createdAt)
-		  .addField("Owner", "OfficialGamingOG";
 	
 		return message.channel.send(botembed);
 	  }
